@@ -1,0 +1,18 @@
+2019-08-15 18:32:17 INFO  [6448] TreeFrog Framework version 1.25.0
+2019-08-15 18:32:18 INFO  [6448] Execution environment: Qt 5.9.5 / Ubuntu 18.04.2 LTS
+2019-08-15 18:32:18 INFO  [6448] TreeFrog application servers started up.
+2019-08-15 18:33:21 WARN  [6518] Invalid descriptor (state:0) sd:-1
+2019-08-15 18:33:31 WARN  [6527] Invalid descriptor (state:0) sd:-1
+2019-08-15 18:33:51 WARN  [6550] Invalid descriptor (state:0) sd:-1
+2019-08-15 18:34:01 WARN  [6574] Invalid descriptor (state:0) sd:-1
+2019-08-15 18:34:32 INFO  [6448] TreeFrog application servers shutting down
+2019-08-15 18:34:32 INFO  [6448] TreeFrog application servers shutdown completed
+2019-08-15 21:19:15 INFO  [6593] TreeFrog Framework version 1.25.0
+2019-08-15 21:19:15 INFO  [6593] Execution environment: Qt 5.9.5 / Ubuntu 18.04.2 LTS
+2019-08-15 21:19:15 INFO  [6593] TreeFrog application servers started up.
+2019-08-15 21:20:07 WARN  [6670] Reading a socket timed out after 10 seconds. Descriptor:15
+2019-08-15 21:20:20 WARN  [6681] Reading a socket timed out after 10 seconds. Descriptor:11
+2019-08-15 21:20:44 WARN  [6703] Reading a socket timed out after 10 seconds. Descriptor:15
+2019-08-15 21:20:56 WARN  [6724] Reading a socket timed out after 10 seconds. Descriptor:15
+2019-08-15 21:22:10 INFO  [6593] TreeFrog application servers shutting down
+2019-08-15 21:22:10 INFO  [6593] TreeFrog application servers shutdown completed

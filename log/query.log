@@ -1,0 +1,48 @@
+2019-08-15 18:33:20  [6506] PRAGMA journal_mode=WAL
+2019-08-15 18:33:20  [6506] PRAGMA foreign_keys=ON
+2019-08-15 18:33:20  [6506] PRAGMA busy_timeout=5000
+2019-08-15 18:33:20  [6506] PRAGMA synchronous=NORMAL
+2019-08-15 18:33:20  [6506] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 18:33:20  [6506] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0
+2019-08-15 18:33:20  [6506] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 18:33:45  [6536] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 18:33:45  [6536] INSERT INTO blog ("title", "body", "created_at", "updated_at", "lock_revision") VALUES ('first entry', 'はじめまして', '2019-08-15T18:33:45', '2019-08-15T18:33:45', 1)
+2019-08-15 18:33:45  [6536] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 18:33:45  [6536] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 18:33:45  [6536] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=1 LIMIT 1
+2019-08-15 18:33:45  [6536] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 18:33:51  [6536] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 18:33:51  [6536] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=1 LIMIT 1
+2019-08-15 18:33:51  [6536] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 18:33:55  [6560] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 18:33:55  [6560] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=1 AND t0."lock_revision"=1 LIMIT 1
+2019-08-15 18:33:55  [6560] UPDATE blog SET updated_at='2019-08-15T18:33:55',lock_revision=2 WHERE lock_revision=1 AND id=1
+2019-08-15 18:33:55  [6560] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 18:33:55  [6560] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 18:33:55  [6560] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=1 LIMIT 1
+2019-08-15 18:33:55  [6560] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 18:33:57  [6560] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 18:33:57  [6560] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0
+2019-08-15 18:33:57  [6560] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 21:19:56  [6658] PRAGMA journal_mode=WAL
+2019-08-15 21:19:56  [6658] PRAGMA foreign_keys=ON
+2019-08-15 21:19:56  [6658] PRAGMA busy_timeout=5000
+2019-08-15 21:19:56  [6658] PRAGMA synchronous=NORMAL
+2019-08-15 21:19:56  [6658] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 21:19:56  [6658] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0
+2019-08-15 21:19:56  [6658] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 21:20:34  [6688] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 21:20:34  [6688] INSERT INTO blog ("title", "body", "created_at", "updated_at", "lock_revision") VALUES ('second entry', '１２３４５', '2019-08-15T21:20:34', '2019-08-15T21:20:34', 1)
+2019-08-15 21:20:34  [6688] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 21:20:34  [6688] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 21:20:34  [6688] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=2 LIMIT 1
+2019-08-15 21:20:34  [6688] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 21:20:45  [6711] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 21:20:45  [6711] INSERT INTO blog ("title", "body", "created_at", "updated_at", "lock_revision") VALUES ('second entry', '１２３４５', '2019-08-15T21:20:45', '2019-08-15T21:20:45', 1)
+2019-08-15 21:20:45  [6711] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 21:20:45  [6711] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 21:20:45  [6711] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0 WHERE t0."id"=3 LIMIT 1
+2019-08-15 21:20:45  [6711] [COMMIT] [databaseId:0] rdb00_127
+2019-08-15 21:20:50  [6711] [BEGIN] [databaseId:0] rdb00_127
+2019-08-15 21:20:50  [6711] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blog" t0
+2019-08-15 21:20:50  [6711] [COMMIT] [databaseId:0] rdb00_127
